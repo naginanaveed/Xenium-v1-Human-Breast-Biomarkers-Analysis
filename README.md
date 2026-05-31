@@ -1,4 +1,4 @@
-# 🔬 Biomarker Quantification in Breast Cancer — Xenium In Situ
+# Biomarker Quantification in Breast Cancer — Xenium In Situ
 
 **Reproducing Figures 1A, 1B, 1C, 1E, 1F, 2C, 2F, 2G from:**  
 > Janesick A, Kravitz SN, Stauffer W, Valencia M, Taylor SEB, et al.  
@@ -6,13 +6,13 @@
 > bioRxiv (2025). https://doi.org/10.64898/2025.12.08.692193
 
 **Dataset:** [10x Genomics — Xenium FFPE Human Breast Biomarkers](https://www.10xgenomics.com/datasets/xenium-ffpe-human-breast-biomarkers)  
-**Platform:** Google Colab (Python 3, GPU not required)
+
 
 ---
 
-## 📋 Table of Contents
+##  Table of Contents
 
-1. [Understanding the Paper](#1-understanding-the-paper)  
+1. [OVERVIEW](#1-OVERVIEW)  
    - [Purpose](#11-purpose)  
    - [Background & Existing Work](#12-background--existing-work)  
    - [Methodology](#13-detailed-description-of-methodology)  
