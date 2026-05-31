@@ -1,0 +1,6923 @@
+{
+  "metadata": {
+    "sha256_checksum": "87352f05a4a0f858a6a33d08885861902e9d8f44016e7cffd499b2430d95438d",
+    "ui_props": {
+      "visible": true
+    }
+  },
+  "payload": {
+    "chemistry": {
+      "decoder": "xenium_decoding_v1",
+      "version": "v1"
+    },
+    "customer": {
+      "name": "10X Genomics",
+      "email": null
+    },
+    "designer": {
+      "date_created": "2024-11-13T12:52:54.228998164-08:00",
+      "designed_by": {
+        "email": null,
+        "name": "10X Genomics"
+      },
+      "version": "3.4.2"
+    },
+    "panel": {
+      "description": "Xenium Human Breast Cancer HK Gene Panel (280g Custom) Panel",
+      "identity": {
+        "design_id": "N/A",
+        "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+        "version": "1.0.0"
+      },
+      "num_gene_targets": 280,
+      "species": "Human",
+      "tissue": "Breast",
+      "type": {
+        "descriptor": "custom"
+      }
+    },
+    "spec_version": "0.1.0",
+    "targets": [
+      {
+        "codewords": [
+          291
+        ],
+        "info": {
+          "gene_coverage": 7
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000107796",
+            "name": "ACTA2"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          87
+        ],
+        "info": {
+          "gene_coverage": 2
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000075624",
+            "name": "ACTB"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          438
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000163017",
+            "name": "ACTG2"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          246
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000133627",
+            "name": "ACTR3B"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          453
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000134917",
+            "name": "ADAMTS8"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          55
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000196616",
+            "name": "ADH1B"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          477
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000181092",
+            "name": "ADIPOQ"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          398
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000173467",
+            "name": "AGR3"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          326
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000184254",
+            "name": "ALDH1A3"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          475
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000132466",
+            "name": "ANKRD17"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          234
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000148513",
+            "name": "ANKRD30A"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          384
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000180777",
+            "name": "ANKRD30B"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          108
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000011426",
+            "name": "ANLN"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          122
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000166825",
+            "name": "ANPEP"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          278
+        ],
+        "info": {
+          "gene_coverage": 6
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000130208",
+            "name": "APOC1"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          44
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000240583",
+            "name": "AQP1"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          317
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000165272",
+            "name": "AQP3"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          352
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000169083",
+            "name": "AR"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          69
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000111348",
+            "name": "ARHGDIB"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          35
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000198363",
+            "name": "ASPH"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          491
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000167283",
+            "name": "ATP5MG"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          93
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000087586",
+            "name": "AURKA"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          25
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000107262",
+            "name": "BAG1"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          311
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000153064",
+            "name": "BANK1"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          50
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000171791",
+            "name": "BCL2"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          37
+        ],
+        "info": {
+          "gene_coverage": 5
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000023445",
+            "name": "BIRC3"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          364
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000089685",
+            "name": "BIRC5"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          472
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000106605",
+            "name": "BLVRA"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          444
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000138756",
+            "name": "BMP2K"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          101
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000254999",
+            "name": "BRK1"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          245
+        ],
+        "info": {
+          "gene_coverage": 5
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000166920",
+            "name": "C15orf48"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          335
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000159403",
+            "name": "C1R"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          208
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000162949",
+            "name": "CAPN13"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          121
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000091986",
+            "name": "CCDC80"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          346
+        ],
+        "info": {
+          "gene_coverage": 6
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000271503",
+            "name": "CCL5"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          213
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000134057",
+            "name": "CCNB1"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          0
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000105173",
+            "name": "CCNE1"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          211
+        ],
+        "info": {
+          "gene_coverage": 7
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000126353",
+            "name": "CCR7"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          9
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000107771",
+            "name": "CCSER2"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          424
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000177575",
+            "name": "CD163"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          329
+        ],
+        "info": {
+          "gene_coverage": 3
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000272398",
+            "name": "CD24"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          373
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000139193",
+            "name": "CD27"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          422
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000198851",
+            "name": "CD3E"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          442
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000129226",
+            "name": "CD68"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          348
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000019582",
+            "name": "CD74"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          155
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000112149",
+            "name": "CD83"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          113
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000153563",
+            "name": "CD8A"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          493
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000117399",
+            "name": "CDC20"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          187
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000094804",
+            "name": "CDC6"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          480
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000062038",
+            "name": "CDH3"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          334
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000108465",
+            "name": "CDK5RAP3"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          192
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000086548",
+            "name": "CEACAM6"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          255
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000117724",
+            "name": "CENPF"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          421
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000138180",
+            "name": "CEP55"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          337
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000135346",
+            "name": "CGA"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          232
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000133048",
+            "name": "CHI3L1"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          454
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000133063",
+            "name": "CHIT1"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          172
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000099622",
+            "name": "CIRBP"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          485
+        ],
+        "info": {
+          "gene_coverage": 5
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000189143",
+            "name": "CLDN4"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          381
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000176435",
+            "name": "CLEC14A"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          340
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000184220",
+            "name": "CMSS1"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          418
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000130176",
+            "name": "CNN1"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          388
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000111596",
+            "name": "CNOT2"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          188
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000065618",
+            "name": "COL17A1"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          433
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000187498",
+            "name": "COL4A1"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          26
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000158270",
+            "name": "COLEC12"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          226
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000163751",
+            "name": "CPA3"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          227
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000139631",
+            "name": "CSAD"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          103
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000163599",
+            "name": "CTLA4"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          489
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000136943",
+            "name": "CTSV"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          355
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000169245",
+            "name": "CXCL10"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          21
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000107562",
+            "name": "CXCL12"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          105
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000145824",
+            "name": "CXCL14"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          359
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000121966",
+            "name": "CXCR4"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          65
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000171604",
+            "name": "CXXC5"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          153
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000186160",
+            "name": "CYP4Z1"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          77
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000115165",
+            "name": "CYTIP"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          252
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000130826",
+            "name": "DKC1"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          205
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000102580",
+            "name": "DNAJC3"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          322
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000096696",
+            "name": "DSP"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          38
+        ],
+        "info": {
+          "gene_coverage": 3
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000151914",
+            "name": "DST"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          173
+        ],
+        "info": {
+          "gene_coverage": 4
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000254772",
+            "name": "EEF1G"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          61
+        ],
+        "info": {
+          "gene_coverage": 4
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000167658",
+            "name": "EEF2"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          362
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000146648",
+            "name": "EGFR"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          31
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000132507",
+            "name": "EIF5A"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          14
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000074800",
+            "name": "ENO1"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          406
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000119888",
+            "name": "EPCAM"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          495
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000141736",
+            "name": "ERBB2"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          253
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000124882",
+            "name": "EREG"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          306
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000091831",
+            "name": "ESR1"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          130
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000174371",
+            "name": "EXO1"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          268
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000134824",
+            "name": "FADS2"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          403
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000169710",
+            "name": "FASN"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          423
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000077942",
+            "name": "FBLN1"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          312
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000160867",
+            "name": "FGFR4"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          343
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000115641",
+            "name": "FHL2"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          405
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000102755",
+            "name": "FLT1"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          261
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000076258",
+            "name": "FMO4"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          439
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000129514",
+            "name": "FOXA1"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          1
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000054598",
+            "name": "FOXC1"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          224
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000160211",
+            "name": "G6PD"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          202
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000136542",
+            "name": "GALNT5"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          62
+        ],
+        "info": {
+          "gene_coverage": 2
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000111640",
+            "name": "GAPDH"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          204
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000164125",
+            "name": "GASK1B"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          262
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000107485",
+            "name": "GATA3"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          215
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000156689",
+            "name": "GLYATL2"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          409
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000173890",
+            "name": "GPR160"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          416
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000169508",
+            "name": "GPR183"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          209
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000115290",
+            "name": "GRB14"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          301
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000141738",
+            "name": "GRB7"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          196
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000134184",
+            "name": "GSTM1"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          111
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000169919",
+            "name": "GUSB"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          49
+        ],
+        "info": {
+          "gene_coverage": 3
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000132475",
+            "name": "H3F3B"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          469
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000143321",
+            "name": "HDGF"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          233
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000165338",
+            "name": "HECTD2"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          149
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000163909",
+            "name": "HEYL"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          365
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000169567",
+            "name": "HINT1"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          468
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000204632",
+            "name": "HLA-G"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          466
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000137309",
+            "name": "HMGA1"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          272
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000164104",
+            "name": "HMGB2"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          415
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000100292",
+            "name": "HMOX1"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          112
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000122566",
+            "name": "HNRNPA2B1"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          218
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000104824",
+            "name": "HNRNPL"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          464
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000037965",
+            "name": "HOXC8"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          76
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000173110",
+            "name": "HSPA6"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          461
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000144381",
+            "name": "HSPD1"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          299
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000142798",
+            "name": "HSPG2"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          321
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000146674",
+            "name": "IGFBP3"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          56
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000115461",
+            "name": "IGFBP5"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          399
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000115594",
+            "name": "IL1R1"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          327
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000147168",
+            "name": "IL2RG"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          186
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000168685",
+            "name": "IL7R"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          419
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000184216",
+            "name": "IRAK1"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          79
+        ],
+        "info": {
+          "gene_coverage": 6
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000187608",
+            "name": "ISG15"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          374
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000140678",
+            "name": "ITGAX"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          248
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000150093",
+            "name": "ITGB1"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          33
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000142945",
+            "name": "KIF2C"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          426
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000157404",
+            "name": "KIT"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          474
+        ],
+        "info": {
+          "gene_coverage": 3
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000186847",
+            "name": "KRT14"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          51
+        ],
+        "info": {
+          "gene_coverage": 7
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000171346",
+            "name": "KRT15"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          110
+        ],
+        "info": {
+          "gene_coverage": 3
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000128422",
+            "name": "KRT17"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          336
+        ],
+        "info": {
+          "gene_coverage": 3
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000171345",
+            "name": "KRT19"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          181
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000108244",
+            "name": "KRT23"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          83
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000186081",
+            "name": "KRT5"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          383
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000185479",
+            "name": "KRT6B"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          34
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000196569",
+            "name": "LAMA2"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          429
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000053747",
+            "name": "LAMA3"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          97
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000112769",
+            "name": "LAMA4"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          487
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000091136",
+            "name": "LAMB1"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          15
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000196878",
+            "name": "LAMB3"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          473
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000058085",
+            "name": "LAMC2"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          43
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000134333",
+            "name": "LDHA"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          441
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000111716",
+            "name": "LDHB"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          450
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000167615",
+            "name": "LENG8"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          16
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000116678",
+            "name": "LEPR"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          90
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000113594",
+            "name": "LIFR"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          372
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000129038",
+            "name": "LOXL1"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          490
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000175445",
+            "name": "LPL"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          89
+        ],
+        "info": {
+          "gene_coverage": 6
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000012223",
+            "name": "LTF"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          210
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000108848",
+            "name": "LUC7L3"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          217
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000124466",
+            "name": "LYPD3"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          10
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000133800",
+            "name": "LYVE1"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          114
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000090382",
+            "name": "LYZ"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          449
+        ],
+        "info": {
+          "gene_coverage": 1
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000251562",
+            "name": "MALAT1"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          42
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000186868",
+            "name": "MAPT"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          64
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000135679",
+            "name": "MDM2"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          445
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000165304",
+            "name": "MELK"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          194
+        ],
+        "info": {
+          "gene_coverage": 5
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000261857",
+            "name": "MIA"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          74
+        ],
+        "info": {
+          "gene_coverage": 2
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000240972",
+            "name": "MIF"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          325
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000148773",
+            "name": "MKI67"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          60
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000115648",
+            "name": "MLPH"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          249
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000099953",
+            "name": "MMP11"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          81
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000262406",
+            "name": "MMP12"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          137
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000157227",
+            "name": "MMP14"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          58
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000087245",
+            "name": "MMP2"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          345
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000100985",
+            "name": "MMP9"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          162
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000156738",
+            "name": "MS4A1"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          369
+        ],
+        "info": {
+          "gene_coverage": 6
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000169715",
+            "name": "MT1E"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          203
+        ],
+        "info": {
+          "gene_coverage": 3
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "MTCO1P40",
+            "name": "MTCO1P40"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          214
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000065911",
+            "name": "MTHFD2"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          431
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000184956",
+            "name": "MUC6"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          2
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000101057",
+            "name": "MYBL2"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          141
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000136997",
+            "name": "MYC"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          341
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000133392",
+            "name": "MYH11"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          320
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000065534",
+            "name": "MYLK"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          379
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000167306",
+            "name": "MYO5B"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          231
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000171428",
+            "name": "NAT1"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          428
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000080986",
+            "name": "NDC80"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          185
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000104419",
+            "name": "NDRG1"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          288
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000185633",
+            "name": "NDUFA4L2"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          170
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000067141",
+            "name": "NEO1"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          86
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000164128",
+            "name": "NPY1R"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          66
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000143228",
+            "name": "NUF2"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          417
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000185585",
+            "name": "OLFML2A"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          189
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000171199",
+            "name": "OPRPN"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          271
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000091651",
+            "name": "ORC6"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          460
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000180914",
+            "name": "OXTR"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          470
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000169564",
+            "name": "PCBP1"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          13
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000106244",
+            "name": "PDAP1"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          363
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000170962",
+            "name": "PDGFD"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          356
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000113721",
+            "name": "PDGFRB"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          145
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000162366",
+            "name": "PDZK1IP1"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          201
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000261371",
+            "name": "PECAM1"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          471
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000102144",
+            "name": "PGK1"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          179
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000082175",
+            "name": "PGR"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          282
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000092621",
+            "name": "PHGDH"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          148
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000162896",
+            "name": "PIGR"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          430
+        ],
+        "info": {
+          "gene_coverage": 5
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000159763",
+            "name": "PIP"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          407
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000067225",
+            "name": "PKM"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          339
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000130300",
+            "name": "PLVAP"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          41
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000181222",
+            "name": "POLR2A"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          350
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000285437",
+            "name": "POLR2J3"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          132
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000166794",
+            "name": "PPIB"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          168
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000068489",
+            "name": "PRR11"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          247
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000156011",
+            "name": "PSD3"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          494
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000148344",
+            "name": "PTGES"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          123
+        ],
+        "info": {
+          "gene_coverage": 5
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000105894",
+            "name": "PTN"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          377
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000164611",
+            "name": "PTTG1"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          94
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000134644",
+            "name": "PUM1"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          484
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000118849",
+            "name": "RARRES1"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          116
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000129625",
+            "name": "REEP5"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          134
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000157916",
+            "name": "RER1"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          180
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000143248",
+            "name": "RGS5"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          150
+        ],
+        "info": {
+          "gene_coverage": 2
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000089157",
+            "name": "RPLP0"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          370
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000171848",
+            "name": "RRM2"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          136
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000189334",
+            "name": "S100A14"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          85
+        ],
+        "info": {
+          "gene_coverage": 3
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000143546",
+            "name": "S100A8"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          236
+        ],
+        "info": {
+          "gene_coverage": 3
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000163220",
+            "name": "S100A9"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          371
+        ],
+        "info": {
+          "gene_coverage": 5
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000163993",
+            "name": "S100P"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          72
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000133872",
+            "name": "SARAF"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          492
+        ],
+        "info": {
+          "gene_coverage": 6
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000124939",
+            "name": "SCGB2A1"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          497
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000110484",
+            "name": "SCGB2A2"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          396
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000175356",
+            "name": "SCUBE2"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          167
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000115884",
+            "name": "SDC1"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          171
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000075223",
+            "name": "SEMA3C"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          260
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000183569",
+            "name": "SERHL2"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          298
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000196136",
+            "name": "SERPINA3"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          115
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000206075",
+            "name": "SERPINB5"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          95
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000119335",
+            "name": "SET"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          241
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000104332",
+            "name": "SFRP1"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          342
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000106483",
+            "name": "SFRP4"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          410
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000117394",
+            "name": "SLC2A1"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          316
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000141424",
+            "name": "SLC39A6"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          309
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000138449",
+            "name": "SLC40A1"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          147
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000159167",
+            "name": "STC1"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          195
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000125755",
+            "name": "SYMPK"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          289
+        ],
+        "info": {
+          "gene_coverage": 3
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000184292",
+            "name": "TACSTD2"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          357
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000149591",
+            "name": "TAGLN"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          467
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000183508",
+            "name": "TENT5C"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          496
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000137203",
+            "name": "TFAP2A"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          120
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000160180",
+            "name": "TFF3"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          292
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000105825",
+            "name": "TFPI2"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          174
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000072274",
+            "name": "TFRC"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          437
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000092969",
+            "name": "TGFB2"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          319
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000181847",
+            "name": "TIGIT"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          220
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000102265",
+            "name": "TIMP1"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          358
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000137076",
+            "name": "TLN1"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          219
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000171914",
+            "name": "TLN2"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          351
+        ],
+        "info": {
+          "gene_coverage": 5
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000232112",
+            "name": "TMA7"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          347
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000151715",
+            "name": "TMEM45B"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          324
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000159958",
+            "name": "TNFRSF13C"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          20
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000196683",
+            "name": "TOMM7"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          251
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000131747",
+            "name": "TOP2A"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          257
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000073282",
+            "name": "TP63"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          154
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000076554",
+            "name": "TPD52"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          63
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000277734",
+            "name": "TRAC"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          353
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000076604",
+            "name": "TRAF4"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          70
+        ],
+        "info": {
+          "gene_coverage": 3
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000123416",
+            "name": "TUBA1B"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          191
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000176890",
+            "name": "TYMS"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          28
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000175063",
+            "name": "UBE2C"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          52
+        ],
+        "info": {
+          "gene_coverage": 7
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000077152",
+            "name": "UBE2T"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          164
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000035403",
+            "name": "VCL"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          458
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000112715",
+            "name": "VEGFA"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          47
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000134258",
+            "name": "VTCN1"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          104
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000110799",
+            "name": "VWF"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          169
+        ],
+        "info": {
+          "gene_coverage": 7
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000101443",
+            "name": "WFDC2"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          80
+        ],
+        "info": {
+          "gene_coverage": 4
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000108953",
+            "name": "YWHAE"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          119
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000134308",
+            "name": "YWHAQ"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          314
+        ],
+        "info": {
+          "gene_coverage": 4
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000164924",
+            "name": "YWHAZ"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          221
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "id": "ENSG00000163374",
+            "name": "YY1AP1"
+          },
+          "descriptor": "gene"
+        }
+      },
+      {
+        "codewords": [
+          498
+        ],
+        "info": {
+          "gene_coverage": 4
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "name": "NegControlProbe_00002"
+          },
+          "descriptor": "negative_control"
+        }
+      },
+      {
+        "codewords": [
+          488
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "name": "NegControlProbe_00003"
+          },
+          "descriptor": "negative_control"
+        }
+      },
+      {
+        "codewords": [
+          486
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "name": "NegControlProbe_00004"
+          },
+          "descriptor": "negative_control"
+        }
+      },
+      {
+        "codewords": [
+          483
+        ],
+        "info": {
+          "gene_coverage": 7
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "name": "NegControlProbe_00009"
+          },
+          "descriptor": "negative_control"
+        }
+      },
+      {
+        "codewords": [
+          482
+        ],
+        "info": {
+          "gene_coverage": 5
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "name": "NegControlProbe_00012"
+          },
+          "descriptor": "negative_control"
+        }
+      },
+      {
+        "codewords": [
+          481
+        ],
+        "info": {
+          "gene_coverage": 6
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "name": "NegControlProbe_00013"
+          },
+          "descriptor": "negative_control"
+        }
+      },
+      {
+        "codewords": [
+          479
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "name": "NegControlProbe_00014"
+          },
+          "descriptor": "negative_control"
+        }
+      },
+      {
+        "codewords": [
+          478
+        ],
+        "info": {
+          "gene_coverage": 5
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "name": "NegControlProbe_00016"
+          },
+          "descriptor": "negative_control"
+        }
+      },
+      {
+        "codewords": [
+          476
+        ],
+        "info": {
+          "gene_coverage": 7
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "name": "NegControlProbe_00017"
+          },
+          "descriptor": "negative_control"
+        }
+      },
+      {
+        "codewords": [
+          465
+        ],
+        "info": {
+          "gene_coverage": 4
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "name": "NegControlProbe_00019"
+          },
+          "descriptor": "negative_control"
+        }
+      },
+      {
+        "codewords": [
+          463
+        ],
+        "info": {
+          "gene_coverage": 4
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "name": "NegControlProbe_00022"
+          },
+          "descriptor": "negative_control"
+        }
+      },
+      {
+        "codewords": [
+          462
+        ],
+        "info": {
+          "gene_coverage": 3
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "name": "NegControlProbe_00024"
+          },
+          "descriptor": "negative_control"
+        }
+      },
+      {
+        "codewords": [
+          459
+        ],
+        "info": {
+          "gene_coverage": 7
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "name": "NegControlProbe_00025"
+          },
+          "descriptor": "negative_control"
+        }
+      },
+      {
+        "codewords": [
+          457
+        ],
+        "info": {
+          "gene_coverage": 8
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "name": "NegControlProbe_00031"
+          },
+          "descriptor": "negative_control"
+        }
+      },
+      {
+        "codewords": [
+          456
+        ],
+        "info": {
+          "gene_coverage": 7
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "name": "NegControlProbe_00033"
+          },
+          "descriptor": "negative_control"
+        }
+      },
+      {
+        "codewords": [
+          455
+        ],
+        "info": {
+          "gene_coverage": 6
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "name": "NegControlProbe_00034"
+          },
+          "descriptor": "negative_control"
+        }
+      },
+      {
+        "codewords": [
+          452
+        ],
+        "info": {
+          "gene_coverage": 5
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "name": "NegControlProbe_00035"
+          },
+          "descriptor": "negative_control"
+        }
+      },
+      {
+        "codewords": [
+          451
+        ],
+        "info": {
+          "gene_coverage": 6
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "name": "NegControlProbe_00039"
+          },
+          "descriptor": "negative_control"
+        }
+      },
+      {
+        "codewords": [
+          448
+        ],
+        "info": {
+          "gene_coverage": 7
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "name": "NegControlProbe_00041"
+          },
+          "descriptor": "negative_control"
+        }
+      },
+      {
+        "codewords": [
+          447
+        ],
+        "info": {
+          "gene_coverage": 7
+        },
+        "source": {
+          "category": "current",
+          "identity": {
+            "design_id": "N/A",
+            "name": "Xenium Human Breast Cancer HK Gene Panel (280g Custom)",
+            "version": "1.0.0"
+          }
+        },
+        "type": {
+          "data": {
+            "name": "NegControlProbe_00042"
+          },
+          "descriptor": "negative_control"
+        }
+      }
+    ]
+  }
+}
