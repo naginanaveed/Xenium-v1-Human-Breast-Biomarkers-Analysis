@@ -22,15 +22,14 @@
 4. [Setup & Installation](#4-setup--installation)  
 5. [Step-by-Step Code Walkthrough](#5-step-by-step-code-walkthrough)  
 6. [Output Files & Figures](#6-output-files--figures)  
-7. [Key Tables & Data Summaries](#7-key-tables--data-summaries)  
-8. [Troubleshooting](#8-troubleshooting)  
-9. [Dependencies](#9-dependencies)
+7. [Key Tables & Data Summaries](#7-key-tables--data-summaries)   
+8. [Dependencies](#8-dependencies)
 
 ---
 
-## 1. Understanding the Paper
+## 1. OVERVIEW
 
-### 1.1 Purpose
+## 1.1 Purpose
 
 Cancer diagnosis has a big problem: you can detect gene expression, but how do you know whether a gene is *actually* behaving abnormally, or whether the measurement itself is just noisy? This is the core question Janesick et al. (2025) set out to answer. The paper has two central goals:
 
@@ -41,27 +40,96 @@ The technology they use — **Xenium In Situ** — makes this possible at single
 
 ---
 
-### 1.2 Background & Existing Work
+## 1.2 Background & Existing Work
 
-#### Why DCIS matters
-DCIS is a pre-invasive breast cancer — malignant cells are confined within the milk ducts and have not yet broken through into surrounding tissue. Roughly 20–50% of untreated DCIS cases eventually become invasive, but we currently cannot reliably predict which ones will. If we could, many patients could be spared from aggressive treatment. This makes accurate molecular biomarkers critically important.
+### Why DCIS Matters
 
-#### The normalization problem in spatial transcriptomics
-Any RNA measurement platform — whether it's bulk RNA-seq, RT-qPCR, or in situ — produces raw counts that are affected by technical noise: tissue preparation quality, FFPE degradation, RNA capture efficiency, and sample-to-sample variation. To compare gene expression meaningfully across different tissue sections or patients, you need a normalization strategy.
+**Ductal Carcinoma In Situ (DCIS)** is an early-stage breast cancer where abnormal cells remain confined within the milk ducts and have not spread to surrounding tissue.
 
-The most common approach, borrowed from clinical diagnostic assays like **Oncotype Dx** (a breast cancer recurrence test), is to divide target gene counts by the counts of a set of "housekeeping" genes that are assumed to be stably expressed across all samples. Oncotype Dx uses five HK genes: *ACTB*, *GAPDH*, *GUSB*, *RPLP0*, and *TFRC*.
+#### Key Points
+- Around **20–50%** of untreated DCIS cases may progress to invasive breast cancer.
+- Currently, there is no reliable way to predict which cases will become invasive.
+- Better prediction methods could help avoid unnecessary aggressive treatments.
 
-#### The problem with classic HK genes at single-cell resolution
-Traditional HK gene selection was done using bulk RNA measurements from mixed cell populations. But at single-cell resolution — which Xenium provides — you can now see something that was previously invisible: **some of those "stable" HK genes are not actually stable at all when you look within specific cell types**.
+**Why this matters:**  
+Identifying accurate molecular biomarkers could improve risk assessment and support more personalized treatment decisions.
 
-For example, *GAPDH* is a glycolytic enzyme. As tumors become more aggressive, they ramp up glycolysis (the Warburg effect), which means *GAPDH* expression *itself* increases in more aggressive tumor cells. Using *GAPDH* as a normalization reference would therefore mask or even reverse the apparent expression of tumor biomarkers. Similarly, *TFRC* and *GUSB* showed significant variability across different tumor subtypes in this study.
+---
+### The Normalization Challenge in Spatial Transcriptomics
 
-#### What spatial in situ adds
-Earlier work by the same group (Janesick et al., Nature Communications 2023) demonstrated the power of combining Xenium with Visium spatial transcriptomics and single-cell RNA-seq on the same tissue block. That paper characterized cell type composition of the breast tumor microenvironment at high resolution. The 2025 paper extends this to focus specifically on biomarker quantification and normalization — a more practically translatable problem for clinical diagnostics.
+Gene expression measurements are affected by technical factors such as:
+
+- Tissue preparation quality
+- FFPE-related RNA degradation
+- RNA capture efficiency
+- Sample-to-sample variation
+
+Because of these factors, **normalization** is essential to ensure that differencs in gene expression reflect real biological changes rather than technical noise.
 
 ---
 
-### 1.3 Detailed Description of Methodology
+### Traditional Housekeeping Gene Normalization
+
+A common approach is to normalize target genes using **housekeeping (HK) genes**, which are assumed to have stable expression across samples.
+
+### Example: Oncotype Dx Housekeeping Genes
+- ACTB
+- GAPDH
+- GUSB
+- RPLP0
+- TFRC
+
+These genes serve as reference controls for comparing gene expression levels.
+
+---
+
+### The Problem at Single-Cell Resolution
+
+Most housekeeping genes were selected using **bulk RNA data**, where signals from many cells are averaged together.
+
+With **Xenium spatial transcriptomics**, gene expression can be measured in individual cells, revealing that some traditional housekeeping genes are not as stable as previously believed.
+
+### Examples
+
+**GAPDH**
+- Plays a role in glycolysis.
+- Tumor cells often increase glycolysis as they become more aggressive (Warburg effect).
+- As a result, GAPDH expression can increase in aggressive tumors.
+
+**Impact:** Using GAPDH as a reference gene may distort biomarker measurements.
+
+**TFRC and GUSB**
+- Also showed significant variation across different tumor subtypes.
+- Their instability makes them less reliable for normalization.
+
+---
+
+### Contribution of Spatial In Situ Technologies
+
+A previous study by **Janesick et al. (Nature Communications, 2023)** combined:
+
+- Xenium spatial transcriptomics
+- Visium spatial transcriptomics
+- Single-cell RNA sequencing (scRNA-seq)
+
+This work provided a detailed view of the breast tumor microenvironment and cell-type composition.
+
+---
+
+### Focus of the 2025 Study
+
+The 2025 study builds on this foundation by focusing on:
+
+- Biomarker quantification
+- Gene expression normalization
+- Identification of more reliable reference genes
+
+#### Clinical Relevance
+The goal is to improve the accuracy of biomarker measurements, making spatial transcriptomics more useful for future clinical diagnostics and personalized breast cancer treatment.
+
+---
+
+## 1.3 Detailed Description of Methodology
 
 The study analyzed **12 FFPE human breast tissue samples** (8 DCIS, 3 invasive ductal carcinoma, 1 normal) using a **custom 280-gene Xenium panel** that included:
 - Breast tissue cell type markers (epithelial, myoepithelial, stromal, immune)
@@ -69,10 +137,10 @@ The study analyzed **12 FFPE human breast tissue samples** (8 DCIS, 3 invasive d
 - Known clinical biomarkers (ER/ESR1, PR/PGR, HER2/ERBB2, MKI67)
 - Basement membrane (BM) genes relevant to invasion potential
 
-#### Step 1: Cell segmentation and cell typing
+### Step 1: Cell segmentation and cell typing
 Each tissue section was processed through Xenium's on-instrument pipeline (v4.0.0), which produces cell boundaries, nucleus centroids, and per-cell transcript counts. Cells were filtered to retain those with >10 total transcripts and >5 unique genes detected. Normalization used SCTransform, followed by PCA, neighbor graph construction, UMAP, and Leiden clustering (resolution 0.3). Cell types were annotated using known marker genes.
 
-#### Step 2: Assessing HK gene stability using Coefficient of Variation (CV)
+### Step 2: Assessing HK gene stability using Coefficient of Variation (CV)
 The CV (standard deviation / mean) is a measure of relative variability. A low CV means a gene's expression is consistent from cell to cell within a given cell type across all 12 sections. A high CV means it varies a lot.
 
 The authors computed **intra-section CV** (within each tissue section, across cells of the same type) and **inter-section CV** (across all 12 sections, comparing cluster-level means). This two-level analysis was critical: a gene might be stable within one section but vary dramatically between sections (making it useless for cross-sample normalization).
@@ -83,22 +151,22 @@ Through this analysis, four genes emerged as the best HK genes for tumor cells:
 - **MALAT1** — a highly abundant long non-coding RNA, stably expressed
 - **RPLP0** — ribosomal protein, stable and well-supported in literature
 
-#### Step 3: Choosing which biomarkers to normalize
+### Step 3: Choosing which biomarkers to normalize
 The study then identified genes with **high inter-section CV** — meaning they vary significantly across different sections — as candidate biomarkers. These are the genes that *should* vary because they track tumor biology. Crucially, the normalization strategy must preserve this variance; a bad HK gene set would flatten the differences between tumor grades.
 
 Key biomarkers identified:
 - **LDHA** and **SDC1**: increase with tumor grade (linked to the Warburg effect and aggressive behavior)
 - **SFRP1** and **PIGR**: decrease with tumor grade (tumor suppressors)
 
-#### Step 4: Validating normalization — HK gene comparison
+### Step 4: Validating normalization — HK gene comparison
 The authors directly tested whether normalizing LDHA by the Oncotype Dx HK panel (including GAPDH and GUSB) vs. their refined HK panel (EEF1G, EEF2, MALAT1, RPLP0) made a difference. The answer was stark: GAPDH normalization actually reversed the apparent LDHA trend, making high-grade DCIS look similar to benign tissue. This is because GAPDH increases with tumor aggressiveness (Warburg effect), partially canceling out the LDHA signal.
 
-#### Step 5: Spatial biomarker analysis — myoepithelial cells
+### Step 5: Spatial biomarker analysis — myoepithelial cells
 The study then zoomed into myoepithelial cells — the ring of contractile cells surrounding the milk duct that forms a physical barrier against invasion. They compared myoepithelial cells adjacent to **normal ducts** versus those adjacent to **DCIS ducts**, looking at expression of basement membrane (BM) genes.
 
 Key finding: **LAMC2** (Laminin subunit gamma 2) is significantly upregulated in tumor-associated myoepithelial cells compared to normal ones, while other myoepithelial markers (KRT14, COL17A1) remain relatively stable. LAMC2 protein is cleaved proteolytically in a tumorigenic environment, weakening cell-matrix adhesion and potentially enabling invasion. This makes LAMC2 an early molecular indicator of invasive potential — potentially detectable before histological changes are visible.
 
-#### Step 6: Cell-agnostic spatial analysis of peritumoral MMP11
+### Step 6: Cell-agnostic spatial analysis of peritumoral MMP11
 The final methodological innovation addresses a fundamental limitation of cell-based spatial analysis: **not all transcripts get assigned to cells**. In the dense extracellular matrix (ECM) surrounding ducts, stromal cells (fibroblasts, endothelial cells) have irregular, thin shapes that are hard to segment. Transcripts in the ECM space between cells are simply "unassigned" — and this creates an underestimation of ECM-related genes.
 
 To overcome this, the authors used a **cell-agnostic approach** for *MMP11*, a matrix metalloproteinase expressed in the peritumoral stroma:
@@ -111,7 +179,7 @@ This approach captures the full MMP11 signal including unassigned transcripts, m
 
 ---
 
-### 1.4 Results
+## 1.4 Results
 
 | Finding | Key Gene(s) | Significance |
 |---|---|---|
@@ -174,7 +242,7 @@ After extracting, the following four files are used directly:
 | `transcripts.zarr.zip` | 1.18 GB | Zarr (compressed) | Individual transcript records: spatial coordinates (x, y), gene name, and cell assignment ID for every detected RNA molecule |
 | `gene_panel.json` | 153 KB | JSON | Panel definition listing all 280+ gene targets with probe names and metadata |
 
-> **Note:** `transcripts.zarr.zip` is large (1.18 GB). It is only loaded in Sections 14 and 15 for spatial MMP11 analysis. All earlier steps use the cell × gene matrix only.
+
 
 ---
 
@@ -210,7 +278,6 @@ Run the first notebook cell:
 !pip install igraph leidenalg
 ```
 
-> **Why zarr==2.18.3 specifically?** The Xenium zarr files use zarr format v2 conventions. Later versions of zarr (v3+) changed the store API and break compatibility with these files.
 
 ### 4.4 Configure Paths
 
@@ -224,14 +291,14 @@ OUT_DIR  = '/content/xenium_outputs'               # where figures are saved
 
 ---
 
-## 5. Step-by-Step Code Walkthrough
+# 5. Step-by-Step Code Walkthrough
 
 ### Section 0 — Install Dependencies
 Installs all required Python packages. Must be run first in every new Colab session.
 
 ---
 
-### Section 1 — Imports & Config
+## Section 1 — Imports & Config
 Sets up all imports and defines the gene sets used throughout the analysis:
 
 | Variable | Genes | Purpose |
@@ -244,12 +311,12 @@ Sets up all imports and defines the gene sets used throughout the analysis:
 
 ---
 
-### Section 2 — Mount Drive & Extract Zarr Archives
+## Section 2 — Mount Drive & Extract Zarr Archives
 Mounts Google Drive and extracts the three `.zarr.zip` archives to `/content/xenium_local/`. Each archive is only extracted once — if already extracted, it skips to avoid re-doing 1+ GB of decompression.
 
 ---
 
-### Section 3 — Load Cell × Gene Matrix → AnnData
+## Section 3 — Load Cell × Gene Matrix → AnnData
 
 **What happens:**  
 The cell feature matrix is stored in Zarr as a Compressed Sparse Column (CSC) matrix — efficient for column (gene) access. The code:
@@ -269,12 +336,12 @@ obs:  cell_centroid_x, cell_centroid_y, cell_area, nucleus_area, ...
 
 ---
 
-### Section 4 — Load Cell Metadata
+## Section 4 — Load Cell Metadata
 Loads and aligns additional cell metadata from `cells.zarr`. Handles potential index mismatches between the two zarr stores by falling back to positional alignment if cell IDs don't match.
 
 ---
 
-### Section 5 — QC Filtering
+## Section 5 — QC Filtering
 
 **Paper thresholds applied:**
 - Keep cells with **> 10 total transcripts**
@@ -296,7 +363,7 @@ Also rebuilds the AnnData with the correct feature count (542, not 300), padding
 
 ---
 
-### Section 6 — Normalize → Log1p → PCA → Neighbors → UMAP → Leiden
+## Section 6 — Normalize → Log1p → PCA → Neighbors → UMAP → Leiden
 
 Standard Scanpy preprocessing pipeline:
 
@@ -320,7 +387,7 @@ Standard Scanpy preprocessing pipeline:
 
 ---
 
-### Section 7 — Cell Type Annotation
+## Section 7 — Cell Type Annotation
 Scores each cell for 7 cell type gene sets using `sc.tl.score_genes`, then assigns each cell the label of the highest-scoring type:
 
 | Cell Type | Marker Genes Used |
@@ -333,9 +400,9 @@ Scores each cell for 7 cell type gene sets using `sc.tl.score_genes`, then assig
 | Fibroblast | COL1A1, DCN, FAP, VIM |
 | Endothelial | PECAM1, VWF, CDH5 |
 
-## Result:
+### Result:
 
-### Cell Type Distribution
+#### Cell Type Distribution
 
 | Cell Type      | Count |
 |----------------|-------:|
@@ -358,7 +425,7 @@ The paper uses 4 tissue sections with known subtypes (S2T, S3T, S1B, S2B). Since
 
 ---
 
-### Section 8 — CV Computation Helper
+## Section 8 — CV Computation Helper
 
 Two utility functions used throughout:
 
@@ -374,7 +441,7 @@ Returns a DataFrame of shape `(genes × cell_types)`.
 
 ---
 
-### Section 9 — Figure 1A: HK Gene CV Violin Plot
+## Section 9 — Figure 1A: HK Gene CV Violin Plot
 
 **What it shows:** Distribution of CV values for 15 candidate HK genes, each computed per cell type and shown as a violin + scatter.
 
@@ -393,7 +460,7 @@ Returns a DataFrame of shape `(genes × cell_types)`.
 
 ---
 
-### Section 10 — Figure 1B: DEG CV Violin Plot
+## Section 10 — Figure 1B: DEG CV Violin Plot
 
 **What it shows:** CV of 9 differentially expressed genes across tumor subtypes (S2T, S3T, S1B, S2B). These genes are expected to be *highly variable* — that is the whole point. High CV here is a feature, not a bug.
 
@@ -408,7 +475,7 @@ Returns a DataFrame of shape `(genes × cell_types)`.
 
 ---
 
-### Section 11 — Figure 1C: CV vs Mean Scatter Plot
+## Section 11 — Figure 1C: CV vs Mean Scatter Plot
 
 **What it shows:** Log-log scatter of CV vs. mean expression for all 542 genes in tumor cells. This is a classic noise analysis plot.
 
@@ -421,7 +488,7 @@ Returns a DataFrame of shape `(genes × cell_types)`.
 
 ---
 
-### Section 12 — Figure 1E: LDHA Raw Expression by Tumor Subtype
+## Section 12 — Figure 1E: LDHA Raw Expression by Tumor Subtype
 
 **What it shows:** Raw LDHA transcript counts per tumor cell, split by subtype (S2T → S3T → S1B → S2B). Includes jittered scatter, mean line, SEM error bars, and Mann-Whitney U significance brackets.
 
@@ -434,7 +501,7 @@ Returns a DataFrame of shape `(genes × cell_types)`.
 
 ---
 
-### Section 13 — Figure 1F: LDHA Normalized to HK Genes
+## Section 13 — Figure 1F: LDHA Normalized to HK Genes
 
 **What it shows:** Four panels — LDHA expression normalized to each of EEF1G, RPLP0, GAPDH, and GUSB separately. This is the critical comparison:
 
@@ -449,7 +516,7 @@ Returns a DataFrame of shape `(genes × cell_types)`.
 
 ---
 
-### Section 14 — Figure 2C: Myoepithelial Marker Expression
+## Section 14 — Figure 2C: Myoepithelial Marker Expression
 
 **What it shows:** Bar chart of KRT14, COL17A1, and LAMC2 expression in myoepithelial cells adjacent to normal ducts vs. tumor (DCIS) ducts.
 
@@ -465,7 +532,7 @@ Returns a DataFrame of shape `(genes × cell_types)`.
 
 ---
 
-### Section 15 — Figures 2F & 2G: MMP11 Periductal Transcript Density
+## Section 15 — Figures 2F & 2G: MMP11 Periductal Transcript Density
 
 This is the most complex and methodologically novel section.
 
@@ -511,7 +578,7 @@ A 30 µm ring = 141.2 pixels outward expansion.
 
 ---
 
-### Section 16 — Save All Outputs
+## Section 16 — Save All Outputs
 
 Saves the final annotated AnnData object and derived tables:
 
@@ -566,14 +633,14 @@ Saves the final annotated AnnData object and derived tables:
 
 | Gene | Category | CV (intra-section) | Recommended |
 |------|----------|--------------------|-------------|
-| EEF1G | Translation factor | Very low | ✅ Yes |
-| EEF2 | Translation factor | Very low | ✅ Yes |
-| MALAT1 | lncRNA | Very low | ✅ Yes |
-| RPLP0 | Ribosomal protein | Low | ✅ Yes |
-| ACTB | Cytoskeletal | Low | ⚠️ Borderline |
-| GAPDH | Glycolytic enzyme | High in tumor | ❌ No (Warburg-affected) |
-| GUSB | Lysosomal enzyme | Variable | ❌ No |
-| TFRC | Transferrin receptor | High variability | ❌ No |
+| EEF1G | Translation factor | Very low |  Yes |
+| EEF2 | Translation factor | Very low |  Yes |
+| MALAT1 | lncRNA | Very low |  Yes |
+| RPLP0 | Ribosomal protein | Low |  Yes |
+| ACTB | Cytoskeletal | Low |  Borderline |
+| GAPDH | Glycolytic enzyme | High in tumor |  No (Warburg-affected) |
+| GUSB | Lysosomal enzyme | Variable |  No |
+| TFRC | Transferrin receptor | High variability |  No |
 
 ### Pixel-to-Micron Conversion
 
@@ -586,38 +653,9 @@ Saves the final annotated AnnData object and derived tables:
 
 ---
 
-## 8. Troubleshooting
 
-### Issue: `zarr.errors.GroupNotFoundError` when loading matrix
-**Cause:** The zarr files require zarr v2 API. Newer zarr versions changed the store interface.  
-**Fix:** Pin the version: `pip install zarr==2.18.3`
 
-### Issue: Gene count mismatch (300 expected, 542 in matrix)
-**Cause:** The gene panel JSON lists 300 named targets, but the matrix has 542 features (including internal controls, blanks, negative probes).  
-**Fix:** Already handled in Section 5 — the code pads the name list to 542 with `blank_N` labels.
-
-### Issue: `leidenalg` not found
-**Fix:** Run `!pip install leidenalg` then restart the Colab runtime and re-run from Section 1.
-
-### Issue: `No myoepithelial cells found` (Fig 2C skipped)
-**Cause:** The annotation in Section 7 depends on which genes are present in the panel. Some panel versions may not include all marker genes.  
-**Fix:** Check that `KRT14`, `KRT5`, `ACTA2` are in `adata.var_names`. If fewer than 10 myoepithelial cells are found, the section is automatically skipped with a warning.
-
-### Issue: Fig 2F/2G fails with `FileNotFoundError` for table.xlsx
-**Cause:** Table S5 (ROI polygon coordinates) from the paper's supplemental materials must be placed manually in `DATA_DIR`.  
-**Fix:** Download Table S5 from the paper's supplemental data and rename it `table.xlsx`.
-
-### Issue: Memory error when loading transcripts.zarr
-**Cause:** `transcripts.zarr.zip` (1.18 GB) requires significant RAM.  
-**Fix:** The code already filters to only MMP11 and HK transcripts using a boolean mask before loading the full array into memory. Ensure Colab is set to **High RAM** runtime (Runtime → Change runtime type → High-RAM).
-
-### Issue: Tumor subtypes all show as `Unknown`
-**Cause:** If the cell annotation step finds zero tumor cells (e.g., none of the tumor markers are in the panel), the subtype assignment defaults to Unknown.  
-**Fix:** Verify that `EPCAM`, `KRT8`, `KRT18` are in `adata.var_names`. If not, add alternative epithelial markers.
-
----
-
-## 9. Dependencies
+## 8. Dependencies
 
 | Package | Version | Purpose |
 |---------|---------|---------|
@@ -637,23 +675,3 @@ Saves the final annotated AnnData object and derived tables:
 | `openpyxl` | any | Read Table S5 Excel file |
 
 ---
-
-## Citation
-
-If you use this notebook or build on this analysis, please cite the original paper:
-
-```bibtex
-@article{janesick2025biomarker,
-  title   = {Biomarker Quantification in Breast Cancer using Xenium In Situ},
-  author  = {Janesick, Amanda and Kravitz, Stephanie N. and Stauffer, Weston 
-             and Valencia, Miriam and Taylor, Sarah E.B. and others},
-  journal = {bioRxiv},
-  year    = {2025},
-  doi     = {10.64898/2025.12.08.692193}
-}
-```
-
----
-
-*Notebook author: NUST SINES — Special Topics in Bioinformatics / BI-434*  
-*Dataset: 10x Genomics Xenium FFPE Human Breast Biomarkers v4.0.0*
