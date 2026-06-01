@@ -278,6 +278,7 @@ Loads and aligns additional cell metadata from `cells.zarr`. Handles potential i
 
 **Paper thresholds applied:**
 - Keep cells with **> 10 total transcripts**
+
 - Keep cells with **> 5 unique genes detected**
 
 ```
@@ -288,6 +289,10 @@ After QC:  ~175,000–195,000 cells (varies slightly by data version)
 Also rebuilds the AnnData with the correct feature count (542, not 300), padding unnamed features as `blank_N`. Saves two QC distribution plots:
 - Transcript count per cell histogram
 - Unique gene count per cell histogram
+
+
+<img width="1500" height="600" alt="qc_distributions" src="https://github.com/user-attachments/assets/81bf3aa9-4bd5-4698-877b-333e218bc682" />
+
 
 ---
 
@@ -306,6 +311,13 @@ Standard Scanpy preprocessing pipeline:
 | UMAP | `sc.tl.umap` | 2D embedding |
 | Clustering | `sc.tl.leiden` | Resolution 0.3 (matches paper) |
 
+
+<img width="700" height="500" alt="image" src="https://github.com/user-attachments/assets/93bdcd4e-34a7-4ca6-b936-186015097771" />
+
+
+
+
+
 ---
 
 ### Section 7 — Cell Type Annotation
@@ -320,6 +332,24 @@ Scores each cell for 7 cell type gene sets using `sc.tl.score_genes`, then assig
 | Macrophage | CD68, CSF1R, LYZ |
 | Fibroblast | COL1A1, DCN, FAP, VIM |
 | Endothelial | PECAM1, VWF, CDH5 |
+
+## Result:
+
+### Cell Type Distribution
+
+| Cell Type      | Count |
+|----------------|-------:|
+| Tumor          | 63,183 |
+| Myoepithelial  | 35,142 |
+| Macrophage     | 34,125 |
+| Endothelial    | 32,811 |
+| T_cell         | 19,552 |
+| B_cell         | 19,200 |
+
+
+
+<img width="700" height="500" alt="image" src="https://github.com/user-attachments/assets/63de1a1b-574d-499c-9a4e-d39e9fb7ac3a" />
+
 
 ---
 
@@ -357,6 +387,10 @@ Returns a DataFrame of shape `(genes × cell_types)`.
 
 **Output:** `fig1A_hk_cv_violin.png`
 
+
+
+<img width="2084" height="732" alt="fig1A_hk_cv_violin" src="https://github.com/user-attachments/assets/a4558ee4-1664-4631-86b5-4c9ea38f7124" />
+
 ---
 
 ### Section 10 — Figure 1B: DEG CV Violin Plot
@@ -366,6 +400,11 @@ Returns a DataFrame of shape `(genes × cell_types)`.
 **Color:** All violins in magenta/pink — visually distinguishing them from HK genes.
 
 **Output:** `fig1B_deg_cv_violin.png`
+
+
+
+
+<img width="800" height="432" alt="fig1B_deg_cv_violin" src="https://github.com/user-attachments/assets/b5272aa7-13a6-4b92-82c5-295fee2bf7e3" />
 
 ---
 
@@ -377,6 +416,9 @@ Returns a DataFrame of shape `(genes × cell_types)`.
 
 **Output:** `fig1C_cv_scatter.png`
 
+
+<img width="600" height="500" alt="fig1C_cv_scatter" src="https://github.com/user-attachments/assets/4842fc83-8eb5-45fe-a1b3-b053c9c53b64" />
+
 ---
 
 ### Section 12 — Figure 1E: LDHA Raw Expression by Tumor Subtype
@@ -386,6 +428,9 @@ Returns a DataFrame of shape `(genes × cell_types)`.
 **Expected trend:** LDHA increases progressively with tumor grade, reflecting the Warburg effect's escalation in more aggressive cancer.
 
 **Output:** `fig1E_LDHA_raw.png`
+
+
+<img width="500" height="536" alt="fig1E_LDHA_raw" src="https://github.com/user-attachments/assets/1a3726d1-4c3d-4359-9a11-ee8e6b130ddc" />
 
 ---
 
@@ -399,6 +444,9 @@ Returns a DataFrame of shape `(genes × cell_types)`.
 
 **Output:** `fig1F_LDHA_normalized.png`
 
+
+<img width="2384" height="764" alt="fig1F_LDHA_normalized" src="https://github.com/user-attachments/assets/e89a405c-0b66-4da8-bae3-d0385e7ab41f" />
+
 ---
 
 ### Section 14 — Figure 2C: Myoepithelial Marker Expression
@@ -410,6 +458,10 @@ Returns a DataFrame of shape `(genes × cell_types)`.
 **LAMC2** label appears in red — highlighting it as the key upregulated marker in tumor-associated myoepithelium.
 
 **Output:** `fig2C_myoepithelial_markers.png`
+
+
+
+<img width="600" height="482" alt="fig2C_myoepithelial_markers" src="https://github.com/user-attachments/assets/c643e19e-d5b4-485f-a5cb-a31144652a3e" />
 
 ---
 
@@ -448,6 +500,14 @@ A 30 µm ring = 141.2 pixels outward expansion.
 **Statistical test:** Mann-Whitney U (non-parametric) comparing MMP11+ vs MMP11− ducts.
 
 **Outputs:** `fig2F_MMP11_raw_density.png`, `fig2G_MMP11_normalized_density.png`
+
+
+<img width="439" height="488" alt="fig2F_MMP11_raw_density" src="https://github.com/user-attachments/assets/28c52c88-cb79-4eef-b87a-0fdbbf70ba14" />
+
+---
+
+
+<img width="412" height="506" alt="fig2G_MMP11_normalized_density" src="https://github.com/user-attachments/assets/23918768-a139-4a0a-8e33-1949e422dc5e" />
 
 ---
 
